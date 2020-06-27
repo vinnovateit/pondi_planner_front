@@ -1,3 +1,9 @@
+/* COLOR CODE */
+/* white : #FEFBF5 */
+/* blue : #41A2DF */
+/* grey : #566573 */
+/* black : #0B0014 */
+
 /* RESET */
 * {
     box-sizing: border-box;
@@ -11,11 +17,95 @@ div {
 /* BASE */
 
 .background_box {
-    height: 100vh;
+    height: 80vh;
     /* border: 2px solid red; */
     background-image: url("../../assets/bg/landing.png");
     background-size: 100% 100%;
     z-index: 0;
 }
+@media only screen and (max-width: 1000px) {
+    .background_box {
+        height: 85vh;
+        /* border: 2px solid red; */
+        background-image: url("../../assets/bg/landing.png");
+        background-size: 100% 100%;
+        z-index: 0;
+    }
+}
 
-/* NAV HOME */
+/* LANDING IMAGE */
+.landing_img_box {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+}
+.landing_img {
+    margin-left: 8rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .landing_img_box {
+        display: flex;
+        align-items: center;
+        height: 40vh;
+        justify-content: center;
+    }
+    .landing_img {
+        height: 270px;
+        width: 340px;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+}
+
+/* LANDING PAGE TEXT */
+.landing_text_box {
+    text-align: left;
+    padding-top: 3rem;
+    height: 80vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .landing_text_box {
+        height: 40vh;
+        padding-top: 0rem;
+    }
+}
+
+/* TEXT LANDING PAGE */
+.landing_page_button {
+    border-radius: 40px !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .landing_text {
+        display: none;
+    }
+
+    .landing_page_button_mobile {
+        border-radius: 40px !important;
+    }
+}
+
+/* PITCH LANDING PAGE */
+.pitch_landing_page {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: #41a2df;
+}
+
+/* COUNT UP LANDING */
+.count_up_landing {
+    color: #41a2df;
+    font-weight: 500;
+    margin: 3rem auto;
+    margin-bottom: 0rem;
+    font-size: 5rem;
+}
+
+/* MOBILE BEER IMAGE */
+.landing_img_mobile_beer {
+    height: 30vh;
+    width: 30vh;
+}

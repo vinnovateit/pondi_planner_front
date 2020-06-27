@@ -1,0 +1,89 @@
+/* COLOR CODE */
+/* white : #FEFBF5 */
+/* blue : #41A2DF */
+/* grey : #566573 */
+/* black : #0B0014 */
+
+/* BASE */
+.testimonial_frame {
+    height: 93vh;
+    background-image: url("../../assets/bg/why.png");
+    background-size: 100% 100%;
+    z-index: 0;
+}
+@media only screen and (max-width: 1000px) {
+    .testimonial_frame {
+        height: 105vh;
+        background-image: url("../../assets/bg/why.png");
+        background-size: 100% 100%;
+        z-index: 0;
+    }
+}
+
+/* DEBUGGING */
+div {
+    /* border: 2px solid red; */
+}
+
+/* TESTIMONIAL IMAGE*/
+
+.testi_image {
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    border: 5px solid #41a2df;
+}
+@media only screen and (max-width: 1000px) {
+    .testi_image {
+        height: 40vh;
+        width: 40vh;
+        border-radius: 50%;
+        border: 5px solid #41a2df;
+    }
+    .img_for_testi_box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* CONTENT FOR TEST BOX */
+.content_for_testi_box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* QUESTION  */
+.question_landing {
+    color: #fefbf5;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.question_landing_special {
+    color: #41a2df;
+}
+@media only screen and (max-width: 1000px) {
+    .question_landing {
+        color: #fefbf5;
+        font-size: 1.5rem;
+        margin-left: 0rem;
+    }
+}
+
+/* FIND YOUR WHY HEADING */
+.find_your_why_heading {
+    font-size: 2.6rem;
+}
+.find_your_why_pitch {
+    font-size: 1.6rem;
+}
+@media only screen and (max-width: 1000px) {
+    .find_your_why_heading {
+        font-size: 1.3rem;
+    }
+    .find_your_why_pitch {
+        font-size: 1.1rem;
+    }
+}

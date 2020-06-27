@@ -1,0 +1,29 @@
+/* COLOR CODE */
+/* white : #FEFBF5 */
+/* blue : #41A2DF */
+/* grey : #566573 */
+/* black : #0B0014 */
+.website_footer {
+    color: #fefbf5;
+    /* border: 2px solid red; */
+    height: 20vh;
+    padding-top: 4.5rem;
+}
+.social_media_icon {
+    height: 2rem;
+    width: 2rem;
+    padding: 3px;
+}
+.bg_for_social_media_icons {
+    padding: 0.9rem;
+    border-radius: 6px;
+    background-color: #fefbf5;
+}
+
+.social_media_icon:hover {
+    height: 2rem;
+    width: 2rem;
+    padding: 3px;
+
+    transform: scale(1.2);
+}
