@@ -1,0 +1,21 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+div {
+    /* border: 2px solid red; */
+}
+
+/* BASE */
+
+.background_box {
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-image: url("../../assets/bg/landing.png");
+    background-size: 100% 100%;
+    z-index: 0;
+}
+
+/* NAV HOME */
