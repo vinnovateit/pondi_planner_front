@@ -37,7 +37,7 @@ const NavBar = () => {
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Explore
+                            Explore <sup><span className="badge ">PREMIUM</span></sup>
                             </a>
                         </li>
                         <li className="nav-item">
