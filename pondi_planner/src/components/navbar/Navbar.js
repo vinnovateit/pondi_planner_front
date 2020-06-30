@@ -10,7 +10,7 @@ const NavBar = () => {
                 className="navbar navbar-expand-lg navbar-dark"
             >
                 <a className="navbar-brand" href="#">
-                    <img height="62px" width="62px" src={logo} alt="" />
+                    <img height="50px" width="50px" src={logo} alt="" />
                 </a>
                 <button
                     className="navbar-toggler"
