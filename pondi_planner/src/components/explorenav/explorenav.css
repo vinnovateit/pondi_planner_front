@@ -1,5 +1,5 @@
 body{
-	background: url("/Users/ashishsahni/Desktop/explorenav/Polygon 1.png") center / cover no-repeat;
+	background: url("../../assets/Polygon 1.png") center / cover no-repeat;
     height:100vh!important;
 	margin: 0;
 	display: flex;
