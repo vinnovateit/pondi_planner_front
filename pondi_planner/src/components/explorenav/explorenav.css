@@ -1,0 +1,50 @@
+body{
+	background: url("/Users/ashishsahni/Desktop/explorenav/Polygon 1.png") center / cover no-repeat;
+    height:100vh!important;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+
+}
+.features{
+	
+	border-radius: 25px;
+	border: 0.5px solid rgb(206, 199, 199);
+	height: 5vh;
+
+	display: inline-flex;
+	background-color: rgba(44, 41, 41, 0.9);
+ 
+	align-items: center;
+	padding: 0 50px;
+	margin: 20px 0 0 0;
+	list-style: none;
+position: relative;
+
+	
+
+}
+li{
+	
+		list-style: none;
+		color: white;
+		font-family: sans-serif;
+		
+		padding: 10px 10px;
+		margin: 0 8px;
+		position: relative;
+		cursor: pointer;
+		white-space: nowrap;
+		
+}
+
+
+li:hover{
+	background: linear-gradient(to bottom, #edf3f3, #d9dfe2d6);
+					color:black;
+					
+					
+					padding: 10px 10px;
+					transform: scale(1.2);
+						border-radius: 25px;
+}
