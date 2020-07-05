@@ -32,11 +32,12 @@ const Testi = () => {
                         </div>
                         <div className="col-lg-8 content_for_testi_box">
                             <h1
+
                                 class="find_your_why_heading mt-4"
-                                style={{ color: "#566573" }}
+                                style={{ color: "red" }}
                             >
                                 Find your
-                                <span style={{ color: "#41A2DF" }}>
+                                <span style={{ color: "pink" }}>
                                     {" "}
                                     why? 💗
                                 </span>

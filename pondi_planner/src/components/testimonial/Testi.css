@@ -31,14 +31,14 @@ div {
     height: 50vh;
     width: 50vh;
     border-radius: 50%;
-    border: 5px solid #41a2df;
+    border: 5px solid pink;
 }
 @media only screen and (max-width: 1000px) {
     .testi_image {
         height: 40vh;
         width: 40vh;
         border-radius: 50%;
-        border: 5px solid #41a2df;
+        border: 5px solid pink;
     }
     .img_for_testi_box {
         display: flex;
@@ -57,16 +57,16 @@ div {
 
 /* QUESTION  */
 .question_landing {
-    color: #fefbf5;
+    color: pink;
     font-size: 1.8rem;
     margin-left: 1rem;
 }
 .question_landing_special {
-    color: #41a2df;
+    color: pink;
 }
 @media only screen and (max-width: 1000px) {
     .question_landing {
-        color: #fefbf5;
+        color: pink;
         font-size: 1.5rem;
         margin-left: 0rem;
     }
@@ -75,6 +75,7 @@ div {
 /* FIND YOUR WHY HEADING */
 .find_your_why_heading {
     font-size: 2.6rem;
+    color: pink;
 }
 .find_your_why_pitch {
     font-size: 1.6rem;
