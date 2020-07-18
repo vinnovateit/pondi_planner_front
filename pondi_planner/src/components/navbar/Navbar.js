@@ -10,7 +10,7 @@ const NavBar = () => {
                 className="navbar navbar-expand-lg navbar-dark"
             >
                 <a className="navbar-brand" href="#">
-                    <img height="25px" width="25px" src={logo} alt="" />
+                    <img height="50px" width="50px" src={logo} alt="" />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -27,28 +27,22 @@ const NavBar = () => {
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <a className="nav-link" href="#">
-                                Home <span className="sr-only">(current)</span>
+                                HOME <span className="sr-only">(current)</span>
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Book Now
+                            <a className="nav-link active" href="#">
+                                BOOKNOW
                             </a>
                         </li>
+
                         <li className="nav-item">
-                            <a className="nav-link" href="#">
-                                Explore
+                            <a className="nav-link active" href="#">
+                                EXPLORE
                             </a>
-                        </li>
-                        <li className="nav-item">
-                            <a
-                                className="nav-link disabled"
-                                href="#"
-                                tabindex="-1"
-                                aria-disabled="true"
-                            >
-                                Coming Soon
-                            </a>
+                            <sup>
+                                <span className="badge">PREMIUM</span>
+                            </sup>
                         </li>
                     </ul>
                 </div>
@@ -58,3 +52,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+//changed to width 4
